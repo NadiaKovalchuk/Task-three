@@ -1,0 +1,368 @@
+body {
+  background-image: url(background.png);
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+content {
+  position: relative;
+  width: 1064vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.45);
+  height: 8vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.information {
+  height: 8vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information__1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.information__2 {
+  position: relative;
+  display: flex;
+  height: 8vh;
+  width: 500px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.icons {
+  position: relative;
+  display: flex;
+  width: 130px;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.icon1 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(ic_caledar.png);
+  height: 19px;
+  width: 19px;
+  margin: 2px;
+}
+
+.icon2 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(ic_forum.png);
+  height: 19px;
+  width: 19px;
+  margin: 2px;
+}
+
+.icon3 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(ic_journey.png);
+  height: 19px;
+  width: 19px;
+  margin: 2px;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu span {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.menu .light {
+  color: blue;
+  color: #3cb878;
+}
+
+.information__1:hover {
+  color: #3cb878;
+}
+
+.icon1:hover {
+  background-image: url(ic_caledar_hover.png);
+}
+
+.icon2:hover {
+  background-image: url(ic_forum_hover.png);
+}
+
+.icon3:hover {
+  background-image: url(ic_journey_hover.png);
+}
+
+.menu .light:hover {
+  text-decoration: underline;
+}
+
+.form {
+  margin-top: 40px;
+  position: relative;
+  background-color: #ffffff;
+  width: 23vw;
+  height: 74vh;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.square {
+  position: absolute;
+  background-color: #3cb878;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 21.5px;
+}
+
+.form__header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign_up {
+  color: #434343;
+  font-size: 19px;
+}
+
+.log_in {
+  color: #3cb878;
+  font-size: 14px;
+}
+
+.log_in:hover {
+  text-decoration: underline;
+}
+
+.apps {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook {
+  background-color: #264b96;
+  width: 48%;
+  height: 46px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fb_bg {
+  position: relative;
+  background-image: url(facebook1.png);
+  width: 10px;
+  height: 18px;
+}
+
+.fb_line {
+  background-color: #2b54a5;
+  width: 2px;
+  height: 65%;
+}
+
+.fb {
+  position: relative;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.google {
+  background-color: #c3412c;
+  width: 48%;
+  height: 46px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gle {
+  position: relative;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.gle_bg {
+  position: relative;
+  background-image: url(G+.png);
+  width: 25px;
+  height: 16px;
+}
+
+.gle_line {
+  background-color: #c8422d;
+  width: 2px;
+  height: 65%;
+}
+
+.or {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  color: #848484;
+}
+
+.choice:before,
+.choice:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background-color: #eaeaea;
+  position: relative;
+}
+
+.choice:before {
+  margin-left: -100%;
+  left: -14px;
+}
+
+.choice:after {
+  margin-right: -100%;
+  right: -14px;
+}
+
+.input__decoration {
+  color: #434343;
+  border-style: solid;
+  border-color: #eaeaea;
+  border-width: 1px;
+  background-color: #ffffff;
+  width: 95%;
+  height: 46px;
+  padding: 0;
+  font-size: 14px;
+  padding-left: 4%;
+  margin-bottom: 5px;
+  font-family: inherit;
+  outline: none;
+}
+
+.input__decoration:active,
+:focus {
+  -webkit-box-shadow: -3px 2px 5px 0px rgba(67, 67, 67, 0.2);
+  -moz-box-shadow: -3px 2px 5px 0px rgba(67, 67, 67, 0.2);
+  box-shadow: -3px 2px 5px 0px rgba(67, 67, 67, 0.2);
+}
+
+.confirm {
+  width: 100%;
+}
+
+.checkone {
+  margin-left: 5px;
+  color: #434343;
+  font-size: 14px;
+}
+
+.checktwo {
+  color: #3cb878;
+  font-size: 14px;
+}
+
+.checktwo:hover {
+  text-decoration: underline;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  border: #eaeaea solid 1px;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-image: url(checkbox.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  margin-top: 5px;
+  width: 100%;
+  height: 44px;
+  background-color: #3cb878;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 16px;
+}
